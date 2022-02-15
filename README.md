@@ -1,5 +1,5 @@
 # Achieving 82% prediction accuracy using Dense Neural Networks
-### Results
+### Results `81.80%`
 ![telco_81](./Images/telco_81.png)  
 ### Model
 ![telco_81_model](./Images/telco_81_model.png)  
@@ -11,8 +11,9 @@ The tech stack:
 4. `pandas`  
 All these and their dependencies can be installed by running `conda env create -f environment.yml`.  
 ### Pre-Processing
+I take this  
 ![possible_values](./Images/possible_values.png)  
-*Cleaned*, *Encoded*, and *Scaled*
+Then after *Cleaning*, *Encoding*, and *Scaling*.    
 ![processed_data](./Images/processed_data.png)  
 ### Fed into dataloader
 ![ds_dl](./Images/ds_dl.png)  
