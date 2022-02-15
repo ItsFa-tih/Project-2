@@ -24,4 +24,6 @@ Then after *Cleaning*, *Encoding*, and *Scaling*.
 
 ### For those interested
 No subclassing of `torch.utils.data.Dataset` was performed. No one was harmed in the making of this film.  
-The combination of `nn.LogSoftmax` and `nn.NLLLoss` is exactly mathematically equivalent to `nn.CrossEntropyLoss`, hence the omission.
+The combination of `nn.LogSoftmax` and `nn.NLLLoss` is exactly mathematically equivalent to `nn.CrossEntropyLoss`, hence the omission.  
+### The Custom Training Loop
+![Training_loop](./Images/training_loop.png)
